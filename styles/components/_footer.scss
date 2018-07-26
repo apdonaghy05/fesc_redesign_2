@@ -1,0 +1,82 @@
+
+footer{
+
+	background-color:black;
+	font-family: 'Montserrat', sans-serif;
+	text-align:center;
+	padding-top: 1em;
+
+		i{
+			font-size:2rem;
+		}
+
+		a{
+			text-decoration:none;
+			color:white;
+
+
+				:link{
+					color:white;
+					}
+
+				:visited{
+					color:white;
+					}
+
+				:hover{
+					color:$brand_orange;
+					}	
+
+		}
+
+		nav{
+		margin:0 auto;
+		padding-bottom: 1em;
+		padding-top: 1em;
+	
+
+			ul{
+			list-style:none;
+
+				li{
+				color:white;
+				margin:.5em;
+
+					:link{
+					 	color:white;
+						}
+
+					 :visited{
+						color:white;
+						}
+
+					:hover{
+						color:$brand_orange;
+						}	
+
+					}
+	
+				}
+
+			}
+
+		}
+	
+
+
+
+
+.copyRight{
+	background-color:$brand_orange;
+	padding:.65em;
+	margin-top: 2em;
+
+		i{
+			font-size: .85em;
+		}
+	}
+
+
+
+
+
