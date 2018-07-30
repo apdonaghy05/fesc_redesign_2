@@ -1,0 +1,298 @@
+// outreach page
+
+.hero_3_img{
+
+	background-image: url("../docs/images/outreach_hero.jpg");
+	alt:""; 
+	height: 25em;
+	padding-top:5.5em;
+
+}
+
+.hero_3{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	z-index:-1;
+}
+
+
+
+
+.overlay_Headline_font{
+	font-family: 'Montserrat', sans-serif;
+	text-shadow: 0px 0px 7px #00426C;
+	color:white;
+	font-size: 5rem;
+	font-weight:800;
+}
+
+
+.pop_up_font{
+
+color:black;
+font-family: 'Montserrat', sans-serif;
+font-size:1.25rem;
+line-height:2rem;
+font-weight: 300;
+padding:1.25em;
+
+}
+
+.pop_up{
+	position:relative;
+	z-index:1;
+	background-color:$brand_light_blue;
+	width:percentage(5/12);
+	margin-left:percentage(5/12);
+	margin-top:-8em;
+
+}
+
+
+@media only screen and (max-width: 1720px){
+
+.pop_up{
+	width:percentage(6/12);
+	margin-left:percentage(5/12);
+	margin-top:-7em;
+}
+
+
+
+
+}
+
+
+@media only screen and (max-width: 1380px){
+
+.pop_up{
+	width:percentage(6/12);
+	margin-left:percentage(5/12);
+	margin-top:-7em;
+}
+
+
+}
+
+@media only screen and (max-width: 1270px){
+
+.pop_up{
+	width:percentage(6/12);
+	margin-left:percentage(5/12);
+	margin-top:-7em;
+}
+
+.pop_up_font{
+
+font-size:1.15rem;
+
+}
+
+
+
+
+}
+
+
+@media only screen and (max-width: 955px){
+
+.pop_up{
+	width:percentage(7/12);
+	margin-left:percentage(5/12);
+	margin-top:-8em;
+}
+
+.pop_up_font{
+
+color:black;
+font-family: 'Montserrat', sans-serif;
+font-size:1.05rem;
+line-height:1.5rem;
+font-weight: 300;
+padding:1.25em;
+
+}
+
+
+
+}
+
+@media only screen and (max-width: 745px){
+
+.pop_up{
+	width:percentage(12/12);
+	margin-left:percentage(0/12);
+	margin-top:-6em;
+}
+
+.pop_up_font{
+
+color:black;
+font-family: 'Montserrat', sans-serif;
+font-size:1.05rem;
+line-height:1.5rem;
+font-weight: 300;
+padding:1.25em;
+
+}
+
+.overlay_Headline_font{
+	font-family: 'Montserrat', sans-serif;
+	text-shadow: 0px 0px 7px #00426C;
+	color:white;
+	font-size: 3.8rem;
+	font-weight:800;
+}
+
+.hero_3_img{
+
+	height: 22em;
+
+}
+
+
+}
+
+
+
+.col_2 img{
+	margin-right:10%;
+}
+
+@media only screen and (max-width: 1400px){
+
+.standard_copy{
+	font-size:1.1rem;
+	line-height:1.6rem;
+	}
+
+}
+
+
+@media only screen and (max-width: 745px){
+
+.col_9{
+	width:percentage(10/12);
+}
+
+.standard_copy{
+	font-size:1rem;
+	line-height:1.4rem;
+}
+
+}
+
+
+.edu{
+	margin-top:4%;
+}
+
+.edu_img{
+	background-image:url("../docs/images/education.gif")
+}
+
+.edu_img h2{
+    color:white;
+    font-style:normal;
+    text-decoration:none;
+}
+
+@media only screen and (max-width: 800px){
+
+.edu_img h2{
+	font-size:4.5rem;
+	line-height:5rem;
+	}
+
+.edu_img{
+	height:15em;
+}
+
+
+}
+
+
+@media only screen and (max-width: 600px){
+
+.edu_img h2{
+	font-size:3rem;
+	line-height:4rem;
+	}
+
+.edu_img{
+	height:10.5em;
+}
+
+
+}
+
+
+// videos on outreach page
+
+
+@media only screen and (max-width: 707px){
+
+.videos .col_9{
+		width:percentage(12/12);
+	}
+
+
+}
+
+
+.videos .resp-container {
+    padding-top: 18%;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1200px){
+
+	.videos .col_4{
+		width:48%;
+	}
+
+	.videos .resp-container {
+    padding-top: 28%;
+	}
+
+
+
+	.flex-container{
+		display:flex;
+		flex-wrap:wrap;
+	}
+
+}
+
+
+
+
+@media only screen and (max-width: 720px){
+
+	.videos .col_4{
+		width:100%;
+	}
+
+	.videos .resp-container {
+    padding-top: 58%;
+	}
+
+
+
+	.flex-container{
+		display:flex;
+		flex-wrap:wrap;
+	}
+
+	.videos .margin-right_1_5{
+	margin-right:0;
+}
+
+
+}
