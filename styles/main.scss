@@ -198,7 +198,10 @@ h3{
 	float:right;
 }
 
-
+.underline{
+	border-bottom:3px solid lightgray;
+	padding-bottom:.3em;
+}
 
 
 @import "components/header";
