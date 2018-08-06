@@ -694,5 +694,56 @@ div.em_1 {
 
   .location .col_6 {
     width: 100%; } }
+.hero_4_img {
+  background-image: url("../docs/images/data_hero.jpg"); }
+
+.chart {
+  width: 50%;
+  height: 10%;
+  margin: 0 auto;
+  height: auto; }
+
+.chart:first-child {
+  margin-right: 4%; }
+
+.chart:last-child {
+  margin-left: 4%; }
+
+@media screen and (max-width: 1100px) {
+  .hero_4_img {
+    padding-top: 5em;
+    height: 15em; }
+
+  .chart:first-child {
+    margin-right: 0%; }
+
+  .chart {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    height: auto; }
+
+  .flex_2 {
+    display: block; }
+
+  .chart:last-child {
+    margin-top: 9%;
+    margin-left: 0%; }
+
+  .divider {
+    display: block;
+    border-bottom: 3px dotted lightgray;
+    margin-top: 2.5em; } }
+.green {
+  background-color: #2D993E; }
+
+p.green {
+  color: white; }
+
+@media screen and (max-width: 746px) {
+  .data_margin {
+    margin-top: 1em; } }
+.margin-top {
+  margin-top: 4.25%; }
 
 /*# sourceMappingURL=main.css.map */
