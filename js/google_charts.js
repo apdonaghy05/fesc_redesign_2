@@ -18,7 +18,7 @@ function getData_1(){
   
 
   let request = new XMLHttpRequest()
-  let requestUrl = "http://api.eia.gov/series/?api_key=34e42ef4da86eba37bc9b6ead84e01b6&series_id=SEDS.REPRB.FL.A"
+  let requestUrl = "https://api.eia.gov/series/?api_key=34e42ef4da86eba37bc9b6ead84e01b6&series_id=SEDS.REPRB.FL.A"
   request.open('GET', requestUrl, true)
 
   request.onload = function(){
@@ -53,7 +53,7 @@ function getData_1(){
 function getData_2(){
 
   let request = new XMLHttpRequest()
-  let requestUrl = "http://api.eia.gov/series/?api_key=34e42ef4da86eba37bc9b6ead84e01b6&series_id=SEDS.TETCB.FL.A"
+  let requestUrl = "https://api.eia.gov/series/?api_key=34e42ef4da86eba37bc9b6ead84e01b6&series_id=SEDS.TETCB.FL.A"
   request.open('GET', requestUrl, true)
 
   request.onload = function(){
