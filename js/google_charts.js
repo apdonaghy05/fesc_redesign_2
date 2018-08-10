@@ -151,11 +151,6 @@ function getData_2(){
 
 
 
-$(window).resize(function(){
-    drawChart_1();
-    drawChart_2();
-});
-
 
 
 
