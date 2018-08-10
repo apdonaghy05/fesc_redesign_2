@@ -13,3 +13,7 @@ but I feel like the other charts available would have convoluted the information
 
 [Line Chart](https://developers.google.com/chart/interactive/docs/gallery/linechart)
 I would have used a bar format again for the energy consumption chart, as this data is very similar to the renewable energy chart, but I wanted to try a different style to give the page some contrast. That being said, I feel as though the line chart is equally as suitable for both sets of data as it utilizes an X and Y axis to draw the data set. 
+
+[Renewable Energy Chart Data](https://www.eia.gov/opendata/qb.php?category=40426&sdid=SEDS.REPRB.FL.A) 
+
+[Energy Consumption Chart Data](https://www.eia.gov/opendata/qb.php?category=40236&sdid=SEDS.TETCB.FL.A)
