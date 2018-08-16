@@ -121,3 +121,7 @@ function getData_2(){
 
       chart.draw(data, google.charts.Line.convertOptions(options));
     }
+
+
+
+    
