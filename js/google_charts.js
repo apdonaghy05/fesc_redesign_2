@@ -1,6 +1,3 @@
-
-
-
 function onDOMLoad(){
  
   google.charts.load('current', {'packages':['corechart','bar','line']});
@@ -9,9 +6,6 @@ function onDOMLoad(){
 }
 
 document.addEventListener("DOMContentLoaded", onDOMLoad)
-
-
-
 
 
 function getData_1(){
@@ -36,19 +30,8 @@ function getData_1(){
   }
   request.send()
 
-
   
 }
-
-
-
-
-
-
-
-
-
-
 
 
 function getData_2(){
@@ -109,9 +92,6 @@ function getData_2(){
     
 
 
-
-
-
    function drawChart_2(consumptionData) {
 
       var data = new google.visualization.DataTable();
@@ -141,23 +121,3 @@ function getData_2(){
 
       chart.draw(data, google.charts.Line.convertOptions(options));
     }
-
-
-
-
-
-
-
-
-
-
-
-$(window).resize(function(){
-    drawChart_1();
-    drawChart_2();
-});
-
-
-
-
-
