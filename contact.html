@@ -6,6 +6,8 @@
     <meta name="keywords" content="FESC, Florida Energy Systems Consortium, University of Florida, Education, Energy">
     <meta name="author" content="Andrew Donaghy">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="js/profiles.js"></script>
     <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,600i,800,800i,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700" rel="stylesheet">
@@ -65,27 +67,23 @@
       </section>
 
 
-      
-      <section class="mainContainer flex-container board">
+      <div class="mainContainer board">
+      <article id="profileListings">
 
-        <h2 class="col_4 padding-right_3">Contact Our<br>Board Members</h2>
+    
 
-        <div class="col_4 center_text padding-right_1_5 em_1">
-        <figure><img src ="docs/images/board_member_1.png" alt="interim director"/></figure>
-        <h3>Dr. David Norton</h3>
-        <span>Interim Director</span>
-        <a href = "mailto:dpnorton@ufl.edu">dpnorton@ufl.edu</a>
-        </div>
+        <section class="profile-container center_text">
+              <h2 class="padding-right_3">Contact Our<br>Board Members</h2>
+          <div class="profile" v-for="profile in profiles">  
+            <figure><img v-bind:src="profile.imgSource" v-bind:alt="profile.name"/></figure>
+            <h3>{{profile.name}}</h3>
+            <span>{{profile.title}}</span>
+            <a href = "#">{{profile.email}}</a>
+          </div>
+        </section>
 
-        <div class="col_4 center_text padding-left_1_5 em_1">      
-        <figure><img src ="docs/images/board_member_2.png" alt=""/></figure>
-        <h3>Ms. Canan “Janan” Balaban</h3>
-        <span>Associate Director</span>
-        <a href = "mailto:cbalaban@ufl.edu">cbalaban@ufl.edu</a>
-        </div>
-
-      </section>
-
+      </article>
+</div>
 
       <section class="green_bckgrnd location">
         <div class="mainContainer flex-container">
