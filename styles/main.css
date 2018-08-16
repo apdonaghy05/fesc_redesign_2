@@ -662,9 +662,9 @@ div.em_1 {
 @media only screen and (max-width: 720px) {
   div.em_1 {
     font-size: .9em; } }
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 944px) {
   .board h2 {
-    font-size: 1.7em; } }
+    font-size: 1.9em; } }
 @media only screen and (max-width: 600px) {
   .board .col_4 {
     width: 100%;
@@ -698,6 +698,37 @@ div.em_1 {
 
   .location .col_6 {
     width: 100%; } }
+.profile img {
+  width: 100%; }
+
+.profile-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.profile {
+  max-width: 20rem;
+  padding-bottom: 2em; }
+
+@media only screen and (max-width: 853px) {
+  .profile-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap; }
+
+  .board h2 {
+    text-align: center;
+    margin-bottom: 4%; } }
 .hero_4_img {
   background-image: url("../docs/images/data_hero.jpg"); }
 
@@ -749,22 +780,5 @@ p.green {
     margin-top: 1em; } }
 .margin-top {
   margin-top: 4.25%; }
-
-.profile-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
-
-.profile {
-  max-width: 20rem; }
 
 /*# sourceMappingURL=main.css.map */
